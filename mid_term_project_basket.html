@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Đồ án giữa kì </title>
+	<link href="mid_term_project_basket.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<table>
+		<tr>
+			<th style=" width:100%"><a href="mid_term_project_homepage.html">HOMEPAGE</a></th>
+			<th><a href="mid_term_project_user.html">User</a></th>
+		</tr>
+	</table>
+	<div>
+		<h1 class="center">Giỏ hàng của bạn</h1>
+	</div>
+	<table class="basket">
+	<tr>
+		<th class="basket">Mặt Hàng</th>
+		<th class="basket">Giá</th>
+		<th class="basket">Số lượng</th>
+		<th class="basket">Thành tiền</th>
+	</tr>
+	<tr>
+		<th class="basket">Acer Aspire SF</th>
+		<th class="basket">13.500.000 đ</th>
+		<th class="basket">1</th>
+		<th class="basket">13.500.000 đ</th>
+	</tr>
+	<tr>
+		<th class="basket" colspan="3">Tổng cộng</th>
+		<th class="basket">13.500.000 đ</th>
+	</tr>
+	</table>
+	<form style="float:left">
+	<div>
+	<label>Địa chỉ:</label>
+    <div style=" margin:10px">
+      <input type="text" name="inputAccount"/>
+    </div>
+	<div>
+    <label>Hình thức thanh toán</label><br/>
+    <input type="radio" name="season" value="tiền mặt"/>
+	<label>Tiền mặt</label><br/>
+	
+    <input type="radio" name="season" value="thẻ ngân hàng"/>
+	<label>Thẻ ngân hàng</label><br/>
+	
+    <input type="radio" name="season" value="ví điện tử"/>
+	<label>Ví điện tử</label><br/>
+	</div>
+	<input class="btn" type="button" value="Xác Nhận Mua Hàng"/>
+	</div>
+	</form>
+</body>
+</html>

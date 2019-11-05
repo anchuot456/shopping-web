@@ -1,0 +1,14 @@
+
+body{
+	background-image:url(images/webBackground.jpg);
+    background-size: auto;
+}
+table{
+	width: 100%;
+	border-spacing: 0px;
+}
+.login{
+	margin:10%;
+	background-color: #dcd6d6;
+	text-align: center;
+}

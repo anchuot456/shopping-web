@@ -1,0 +1,30 @@
+table{
+	width: 100%;
+	border-spacing: 0px;
+	background: #dcd6d6;
+}
+.center
+{
+margin-left: auto;
+margin-right: auto;
+width:fit-content;
+background-color: #b0e0e6;
+}
+table.basket{
+	width:60%;
+	height:100px;
+	border-spacing:1px;
+	border-collapse:collapse;
+	float:left;
+	margin:5px;
+}
+th.basket{
+	width:70%;
+	border:1px solid black;
+}
+.btn{
+	width:100px;
+	height:45px;
+	margin-top:5px;
+	margin-left:40px;
+}

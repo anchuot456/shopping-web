@@ -1,0 +1,17 @@
+table{
+	width: 100%;
+	border-spacing: 0px;
+	background: #dcd6d6;
+}
+img{
+	width:400px;
+	height:400px;
+	float:left;
+}
+b{
+	font-size:2em;
+}
+.btn{
+	width:100px;
+	height:45px;
+}
